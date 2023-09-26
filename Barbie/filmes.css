@@ -1,0 +1,53 @@
+
+@font-face {
+    font-family: Love;
+    src: url(love\ heart.ttf);
+}
+
+body{
+    background-color: #F855B1;
+    justify-content: center;
+}
+
+table{
+    height: 12px;
+    margin: 0 auto;
+}
+
+/*estiizando linhas da tabela*/
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+/*estiizando titulos da coluna da tabea*/
+th{
+    border: 1px solid black;
+}
+
+
+
+h1{
+    font-family: Love;
+    text-align: center;
+    font-size: 60px;
+}
+
+h2{
+    font-family: Love;
+    text-align: center;
+    font-size: 60px;
+}
+
+/*estilizando o select option*/
+.Q{
+    margin-left: 30%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+textarea{
+    height: 40px;
+    width: 536px;
+}

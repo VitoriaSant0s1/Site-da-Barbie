@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Love;
+    src: url(love\ heart.ttf);
+}
+
+@font-face {
+    font-family: Apple;
+    src: url(AppleGaramond-LightItalic.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    background-color: #F855B1;
+}
+
+.Menu{
+    margin-left: 24cm;
+    margin-top: 1%;
+    height: 40px;
+}
+
+
+
+nav .logo{
+    font-family: Love;
+    margin-left: -900px;
+    margin-top: 1cm;
+    position: absolute;
+    font-size: 80px;
+    color: #D90083;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    margin:0 auto;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    font-family: Apple;
+    padding: 10px 21px;
+    text-decoration: none;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+#logo2{
+    height: 600px;
+    width: 600px;
+    opacity: 0.2;
+    margin-left: 19cm;
+    position: absolute;
+}
+
+#img{
+    margin-top:0cm;
+    height: 620px;
+    width: 840px;
+    margin-left: -1.6cm;
+    position: absolute;
+}
+
+pre{
+    position:absolute;
+    font-size: 100px;
+    margin-left: 40%;
+    margin-top: 5cm;
+    font-family: Love;
+    font-style: oblique;
+
+}
